@@ -30,6 +30,5 @@ services:
 volumes:
   db_data:
 
-![Daytona Dev Solutions][screenshot]
-
-[screenshot]: ./screenshot.png
+```
+![Daytona Dev Solutions](https://raw.githubusercontent.com/leamsigc/DaytonaDevSolution/master/screenshot.png "Daytona Dev Solutions logo")   
