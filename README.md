@@ -30,4 +30,6 @@ services:
 volumes:
   db_data:
 
-```
+![Daytona Dev Solutions][screenshot]
+
+[screenshot]: ./screenshot.png
