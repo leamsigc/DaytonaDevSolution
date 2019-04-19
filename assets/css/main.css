@@ -3553,7 +3553,14 @@ body.is-preload .wrapper.fade > .inner {
 #sidebar + #wrapper + #footer {
 	margin-left: 18em;
 }
-
+#footer .footer__menu--container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#footer .footer__menu--container .menu a {
+	color: #f3f3f3;
+}
 @media screen and (max-width: 1280px) {
 	#sidebar + #wrapper + #footer {
 		margin-left: 0;
@@ -3954,4 +3961,9 @@ body.is-preload #sidebar nav ul li {
 	#intro {
 		background-attachment: scroll;
 	}
+}
+
+/* Active current class */
+.current_page_item {
+	color: #dadada;
 }

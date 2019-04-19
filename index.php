@@ -13,7 +13,18 @@
 							</ul>
 						</div>
 					</section>
+				<!-- Menu for other pages -->
+				<section class="wrapper">
+				<div class="inner">
+			
+					<ul class="actions">
+						<li><a href="<?php echo site_url('/privicy-policy'); ?>" class="button">Privacy and Policy</a></li>
+						<li><a href="<?php echo site_url('/About-us'); ?>" class="button">About us</a></li>
+						<li><a href="<?php echo site_url('/Sample-Page'); ?>" class="button">Sample Page</a></li>
 
+					</ul>
+				</div>
+				</section>
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>

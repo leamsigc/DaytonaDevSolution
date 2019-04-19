@@ -1,12 +1,19 @@
 <!-- Footer -->
 			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
+				<div class="inner footer__menu--container" >
 					<nav class='menu'>
-						<ul>
-							<li><a href="<?php  echo site_url();?>">Home</a></li>
-							<li><a href="<?php  echo site_url('/privicy-policy');?>" class="active">Privicy & policy</a></li>
-							<li><a href="<?php  echo site_url('/test')?> ">Elements</a></li>
-						</ul>
+						<?php
+						wp_nav_menu(array(
+							'theme_location' => 'footerLocationOne'
+						)) 
+						?>
+					</nav>
+					<nav class="menu">
+							<?php
+						wp_nav_menu(array(
+							'theme_location' => 'footerLocationTwo'
+						)) 
+						?>
 					</nav>
 				</div>
 			</footer>

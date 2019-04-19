@@ -24,5 +24,10 @@ add_action('wp_enqueue_scripts','DDS_files');
 
 function DDS_features(){
     add_theme_support('title-tag');
+    //Register nav menu 
+    register_nav_menu('headerMenuLocation', 'Main header Menu Nav');
+
+    register_nav_menu('footerLocationOne', 'Footer location menu one ');
+    register_nav_menu('footerLocationTwo', 'Footer location menu Two');
 }
 add_action('after_setup_theme', 'DDS_features');
