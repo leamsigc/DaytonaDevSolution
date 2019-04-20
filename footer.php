@@ -3,20 +3,20 @@
 				<div class="inner footer__menu--container" >
 					<nav class='menu'>
 						<?php
-						wp_nav_menu(array(
-							'theme_location' => 'footerLocationOne'
-						)) 
-						?>
+wp_nav_menu(array(
+    'theme_location' => 'footerLocationOne',
+))
+?>
 					</nav>
 					<nav class="menu">
 							<?php
-						wp_nav_menu(array(
-							'theme_location' => 'footerLocationTwo'
-						)) 
-						?>
+wp_nav_menu(array(
+    'theme_location' => 'footerLocationTwo',
+))
+?>
 					</nav>
 				</div>
 			</footer>
-<?php wp_footer(); ?>
+<?php wp_footer();?>
 </body>
 </html>

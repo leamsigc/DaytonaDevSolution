@@ -82,3 +82,17 @@ _. **Add style to the current menu item that is active**
   /* styles that you want fot the active item in the menu  */
 }
 ```
+**Add custom menus active classes to nav items id not use the dynamic wp_nav_menu**
+> add if statement to element that we need the extra class
+```javascript
+  <li <?php if(is_page(pageSlogHere)) echo  'class="current-menu-item"'?>  >
+    <a href='<?php echo  site_url(PageToGo)?>'>Page to go </a> 
+  </li>
+  //and  ChildPage
+  // 0 mean the current page 
+  //find the parent page id 
+  <li <?php if(is_page(pageSlogHere) or wp_get_post_parent_id(0) == ParentPageId) echo  'class="current-menu-item"'?>  >
+    <a href='<?php echo  site_url(PageToGo)?>'>Page to go </a> 
+  </li>
+
+```

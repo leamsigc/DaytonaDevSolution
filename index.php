@@ -16,7 +16,7 @@
 				<!-- Menu for other pages -->
 				<section class="wrapper">
 				<div class="inner">
-			
+
 					<ul class="actions">
 						<li><a href="<?php echo site_url('/privicy-policy'); ?>" class="button">Privacy and Policy</a></li>
 						<li><a href="<?php echo site_url('/About-us'); ?>" class="button">About us</a></li>
@@ -28,7 +28,7 @@
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="<?php echo get_theme_file_uri('/assets/images/pic01.jpg')  ?>" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="<?php echo get_theme_file_uri('/assets/images/pic01.jpg') ?>" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>privacy policy</h2>
@@ -40,7 +40,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="<?php echo get_theme_file_uri('/assets/images/pic02.jpg')  ?>" alt="" data-position="top center" /></a>
+							<a href="#" class="image"><img src="<?php echo get_theme_file_uri('/assets/images/pic02.jpg') ?>" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Feugiat consequat</h2>
@@ -52,7 +52,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="<?php echo get_theme_file_uri('/assets/images/pic03.jpg')  ?>" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="<?php echo get_theme_file_uri('/assets/images/pic03.jpg') ?>" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Ultricies aliquam</h2>
