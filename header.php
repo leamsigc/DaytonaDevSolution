@@ -9,7 +9,7 @@
         <?php wp_head();?>
 	</head>
 	<body  <?php body_class('is-preload');?> >
-		<?php if (is_home()) {?>
+		<?php if (is_front_page()) {?>
         <!-- Sidebar -->
 			<section id="sidebar">
 				<div class="inner">

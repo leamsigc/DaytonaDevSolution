@@ -3967,3 +3967,23 @@ body.is-preload #sidebar nav ul li {
 .current_page_item {
 	color: #dadada;
 }
+
+/*Class help  */
+
+.mg-0 {
+	margin: 0 auto;
+}
+.inner > .title {
+	font-family: 'Helvetica', 'Roboto', open sans;
+	font-weight: 700;
+	padding: 6rem 2rem;
+	text-align: center;
+	line-height: 1.5;
+	max-width: 1000px;
+}
+.title h1 {
+	text-transform: uppercase;
+}
+.title > h1.major:after {
+	display: none;
+}

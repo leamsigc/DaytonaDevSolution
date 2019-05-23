@@ -4,8 +4,10 @@ get_header();
 ?>
 <div class="wrapper">
 <div class="page-banner__bg-image full-width inner" style='background:url(<?php echo get_theme_file_uri('/assets/images/ocean.jpg') ?>) no-repeat center fixed;background-size: cover; '>
-	<h1 class="major">Welcome to Daytona Dev Solutions Blog</h1>
-	<h2>Keep up with our latest news.</h2>
+	<div class=" title mg-0">
+		<h1 class="major">Welcome to Daytona Dev Solutions Blog</h1>
+		<h2>Keep up with our latest news.</h2>
+	</div>
 </div>
 </div>
 <div class="wrapper style3 fade-up">
