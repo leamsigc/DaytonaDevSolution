@@ -96,3 +96,17 @@ _. **Add style to the current menu item that is active**
   </li>
 
 ```
+
+Add pagination for the blog listing screen 
+
+index.php 
+
+```  php
+<?php  echo paginate_links();?>
+```
+
+Get the archive title and subtitles for the archive.php
+
+```php
+  <?php the_archive_title(); ?>
+```

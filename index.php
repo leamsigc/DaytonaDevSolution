@@ -18,7 +18,10 @@ get_header();
 			the_post();?>
 			<section>
 				<h2><a href="<?php the_permalink();?>"><?php  the_title();?></a></h2>
-				<p>Posted BY <?php the_author_posts_link(); ?> on 6.8 2019 in news</p>
+				<p>Posted BY 
+				<?php the_author_posts_link(); ?> on 
+				<?php the_time('m.j.y')?> in 
+				<?php echo get_the_category_list(', ');?></p>
 				<p>
 					<?php the_excerpt();?>
 				</p>
@@ -26,11 +29,11 @@ get_header();
 			</section>
 		<?php
 		} 
-		?>
+	?>
 		</div>
+	<?php  echo paginate_links();?>
 	</div>
+	
 </div>
 <?php
-get_footer();
-
-?>
+get_footer();?>
